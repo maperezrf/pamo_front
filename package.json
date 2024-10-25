@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start":"serve dist"
+    "start":"serve build -s -n -L -p $port"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
