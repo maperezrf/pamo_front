@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "http-server build -p $PORT"
+    "start": "serve build -s -n -L -p 8080"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -23,6 +23,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
+    "serve": "^14.2.4",
     "sweetalert2": "^11.12.4"
   },
   "devDependencies": {
