@@ -16,7 +16,7 @@ export const PublicationMeliForSku = async (sku) => {
 };
 
 export const GetListFilesApi = async () => {
-  console.log(import.meta.env.VITE_MAIN_URL + import.meta.env.VITE_FILES_SHEET + '/files')
+  console.log(import.meta.env.VITE_MAIN_URL + import.meta.env.VITE_FILES_SHEET + 'files')
   const response = await axios.get(
     import.meta.env.VITE_MAIN_URL + import.meta.env.VITE_FILES_SHEET + 'files'
   );

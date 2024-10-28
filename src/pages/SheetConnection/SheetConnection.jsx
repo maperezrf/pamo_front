@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 export const SheetConnection = () => {
     const getFiles = async () => {
         const response = await GetListFilesApi()
+        console.log(response)
         setFiles(JSON.parse(response.data))
     }
 
